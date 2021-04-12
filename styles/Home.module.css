@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width:100%;
 }
 
 .footer {
@@ -47,7 +48,7 @@
 }
 
 .title {
-  margin: 0;
+  margin-bottom: 50px;
   line-height: 1.15;
   font-size: 4rem;
 }
@@ -119,4 +120,21 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+
+.links { 
+  color: tomato;
+  text-decoration: none;
+  cursor: pointer;
+}
+.linkswrapper { 
+  text-align: center;
+}
+
+.hamburguer-menu {
+  font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: palevioletred;
 }
